@@ -55,7 +55,8 @@ class _PermissionHandlerWidgetState extends State<PermissionHandlerWidget> {
                       permission != Permission.videos &&
                       permission != Permission.audio &&
                       permission != Permission.scheduleExactAlarm &&
-                      permission != Permission.sensorsAlways;
+                      permission != Permission.sensorsAlways &&
+                      permission != Permission.packageStats;
                 } else {
                   return permission != Permission.unknown &&
                       permission != Permission.mediaLibrary &&

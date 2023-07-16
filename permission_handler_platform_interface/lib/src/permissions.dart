@@ -268,6 +268,9 @@ class Permission {
   /// Permission for accessing the device's sensors in background (Android T+ only).
   static const sensorsAlways = Permission._(35);
 
+  // Permission for accessing package stats
+  static const packageStats = Permission._(36);
+
   /// Returns a list of all possible [PermissionGroup] values.
   static const List<Permission> values = <Permission>[
     calendar,
@@ -306,6 +309,7 @@ class Permission {
     audio,
     scheduleExactAlarm,
     sensorsAlways,
+    packageStats
   ];
 
   static const List<String> _names = <String>[
@@ -345,6 +349,7 @@ class Permission {
     'audio',
     'scheduleExactAlarm',
     'sensorsAlways',
+    'packageStats'
   ];
 
   @override

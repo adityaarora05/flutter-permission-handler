@@ -52,6 +52,8 @@ final class PermissionConstants {
     static final int PERMISSION_GROUP_SCHEDULE_EXACT_ALARM = 34;
     static final int PERMISSION_GROUP_SENSORS_ALWAYS = 35;
 
+    static final int PERMISSION_GROUP_PACKAGE_STATS = 36;
+
     @Retention(RetentionPolicy.SOURCE)
     @IntDef({
             PERMISSION_GROUP_CALENDAR,
@@ -86,7 +88,8 @@ final class PermissionConstants {
             PERMISSION_GROUP_NEARBY_WIFI_DEVICES,
             PERMISSION_GROUP_VIDEOS,
             PERMISSION_GROUP_AUDIO,
-            PERMISSION_GROUP_SCHEDULE_EXACT_ALARM
+            PERMISSION_GROUP_SCHEDULE_EXACT_ALARM,
+            PERMISSION_GROUP_PACKAGE_STATS
     })
     @interface PermissionGroup {
     }
