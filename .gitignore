@@ -11,6 +11,7 @@
 .project
 .svn/
 bin/
+test/
 
 # IntelliJ related
 *.iml

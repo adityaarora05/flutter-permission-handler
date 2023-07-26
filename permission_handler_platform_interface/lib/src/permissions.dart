@@ -268,7 +268,7 @@ class Permission {
   /// Permission for accessing the device's sensors in background (Android T+ only).
   static const sensorsAlways = Permission._(35);
 
-  // Permission for accessing package stats
+  /// Permission for accessing package stats
   static const packageStats = Permission._(36);
 
   /// Returns a list of all possible [PermissionGroup] values.

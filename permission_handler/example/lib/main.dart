@@ -55,8 +55,7 @@ class _PermissionHandlerWidgetState extends State<PermissionHandlerWidget> {
                       permission != Permission.videos &&
                       permission != Permission.audio &&
                       permission != Permission.scheduleExactAlarm &&
-                      permission != Permission.sensorsAlways &&
-                      permission != Permission.packageStats;
+                      permission != Permission.sensorsAlways;
                 } else {
                   return permission != Permission.unknown &&
                       permission != Permission.mediaLibrary &&
@@ -64,7 +63,8 @@ class _PermissionHandlerWidgetState extends State<PermissionHandlerWidget> {
                       permission != Permission.reminders &&
                       permission != Permission.bluetooth &&
                       permission != Permission.appTrackingTransparency &&
-                      permission != Permission.criticalAlerts;
+                      permission != Permission.criticalAlerts &&
+                      permission != Permission.packageStats;
                 }
               })
               .map((permission) => PermissionWidget(permission))
