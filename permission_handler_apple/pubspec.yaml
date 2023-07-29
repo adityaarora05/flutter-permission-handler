@@ -22,7 +22,7 @@ dependencies:
     git:
       url: git@github.com:adityaarora05/flutter-permission-handler.git
       ref: main
-      path: ../permission_handler_platform_interface
+      path: ./permission_handler_platform_interface
       version: 12.0.0
 
 dev_dependencies:
