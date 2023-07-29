@@ -22,30 +22,30 @@ dependencies:
   flutter:
     sdk: flutter
   meta: ^1.7.0
-  permission_handler_android:
-    git:
-      url: git@github.com:adityaarora05/flutter-permission-handler.git
-      ref: main
-      path: ./permission_handler_android
-      version: 12.0.0
-  permission_handler_apple:
-    git:
-      url: git@github.com:adityaarora05/flutter-permission-handler.git
-      ref: main
-      path: ./permission_handler_apple
-      version: 12.0.0
-  permission_handler_windows:
-    git:
-      url: git@github.com:adityaarora05/flutter-permission-handler.git
-      ref: main
-      path: ./permission_handler_windows
-      version: 12.0.0
-  permission_handler_platform_interface:
-    git:
-      url: git@github.com:adityaarora05/flutter-permission-handler.git
-      ref: main
-      path: ./permission_handler_platform_interface
-      version: 12.0.0
+  permission_handler_android: ^12.0.0
+    #git:
+    #  url: git@github.com:adityaarora05/flutter-permission-handler.git
+    #  ref: main
+    #  path: ./permission_handler_android
+    #  version: 12.0.0
+  permission_handler_apple: ^12.0.0
+    #git:
+    #  url: git@github.com:adityaarora05/flutter-permission-handler.git
+    #  ref: main
+    #  path: ./permission_handler_apple
+    #  version: 12.0.0
+  permission_handler_windows: ^12.0.0
+    #git:
+    #  url: git@github.com:adityaarora05/flutter-permission-handler.git
+    #  ref: main
+    #  path: ./permission_handler_windows
+    #  version: 12.0.0
+  permission_handler_platform_interface: ^12.0.0
+    #git:
+    #  url: git@github.com:adityaarora05/flutter-permission-handler.git
+    #  ref: main
+    #  path: ./permission_handler_platform_interface
+    #  version: 12.0.0
 
 dev_dependencies:
   flutter_lints: ^1.0.4
