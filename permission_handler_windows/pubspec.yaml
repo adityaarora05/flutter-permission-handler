@@ -16,7 +16,6 @@ dependencies:
   permission_handler_platform_interface:
     git:
       path: ./permission_handler_platform_interface
-      version: 12.0.0
 
 dev_dependencies:
   flutter_test:
