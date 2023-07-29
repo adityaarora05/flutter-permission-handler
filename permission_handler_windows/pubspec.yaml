@@ -14,8 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
   permission_handler_platform_interface:
-    git:
-      path: ./permission_handler_platform_interface
+    path: ../permission_handler_platform_interface
 
 dev_dependencies:
   flutter_test:
